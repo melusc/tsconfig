@@ -1,7 +1,7 @@
 {
 	"compilerOptions": {
-		"module": "esnext",
-		"target": "esnext", // Node.js 12
+		"module": "NodeNext",
+		"target": "esnext",
 		"lib": ["esnext", "DOM", "DOM.Iterable"],
 		"moduleResolution": "node",
 		"allowSyntheticDefaultImports": true, // To provide backwards compatibility, Node.js allows you to import most CommonJS packages with a default import. This flag tells TypeScript that it's okay to use import on CommonJS modules.
