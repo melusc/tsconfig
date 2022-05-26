@@ -1,6 +1,6 @@
 {
   "name": "@lusc/tsconfig",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Shared tsconfig for my projects",
   "main": "tsconfig.json",
   "publishConfig": {
