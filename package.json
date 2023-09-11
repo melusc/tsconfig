@@ -1,21 +1,21 @@
 {
-  "name": "@lusc/tsconfig",
-  "version": "3.0.0",
-  "description": "Shared tsconfig for my projects",
-  "main": "tsconfig.json",
-  "publishConfig": {
-    "access": "public"
-  },
-  "repository": "https://github.com/melusc/tsconfig",
-  "license": "MIT",
-  "author": {
-    "name": "lusc",
-    "url": "https://github.com/melusc"
-  },
-  "engines": {
-    "node": ">=16"
-  },
-  "files": [
-    "tsconfig.json"
-  ]
+	"name": "@lusc/tsconfig",
+	"version": "3.0.0",
+	"description": "Shared tsconfig for my projects",
+	"main": "tsconfig.json",
+	"publishConfig": {
+		"access": "public"
+	},
+	"repository": "https://github.com/melusc/tsconfig",
+	"license": "MIT",
+	"author": {
+		"name": "lusc",
+		"url": "https://github.com/melusc"
+	},
+	"engines": {
+		"node": "^18.17.1 || ^20.6.1"
+	},
+	"files": [
+		"tsconfig.json"
+	]
 }
