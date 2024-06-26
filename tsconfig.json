@@ -1,5 +1,6 @@
 {
 	"compilerOptions": {
+		"outDir": "${configDir}/dist",
 		"module": "NodeNext",
 		"target": "ESNext",
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
