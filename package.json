@@ -2,7 +2,9 @@
 	"name": "@lusc/tsconfig",
 	"version": "5.0.0",
 	"description": "Shared tsconfig for my projects",
-	"main": "tsconfig.json",
+	"exports": {
+		".": "./tsconfig.json"
+	},
 	"publishConfig": {
 		"access": "public"
 	},
