@@ -3,7 +3,8 @@
 	"version": "5.0.0",
 	"description": "Shared tsconfig for my projects",
 	"exports": {
-		".": "./tsconfig.json"
+		".": "./tsconfig.json",
+		"./bundler": "./tsconfig.bundler.json"
 	},
 	"publishConfig": {
 		"access": "public"
@@ -18,6 +19,6 @@
 		"node": "^18.17.1 || ^20.6.1 || ^22.0.0"
 	},
 	"files": [
-		"tsconfig.json"
+		"*.json"
 	]
 }
