@@ -1,17 +1,20 @@
 {
 	"compilerOptions": {
-		"outDir": "${configDir}/dist",
 		"module": "NodeNext",
 		"target": "ESNext",
 		"lib": ["ESNext", "DOM", "DOM.Iterable"],
 		"moduleResolution": "NodeNext",
-		"allowSyntheticDefaultImports": true, // To provide backwards compatibility, Node.js allows you to import most CommonJS packages with a default import. This flag tells TypeScript that it's okay to use import on CommonJS modules.
-		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
+
+		// Output
+		"outDir": "${configDir}/dist",
 		"declaration": true,
-		"verbatimModuleSyntax": true,
 		"pretty": true,
 		"newLine": "lf",
 		"stripInternal": true,
+		"sourceMap": true,
+		"useDefineForClassFields": true,
+
+		// Language features, errors, style
 		"strict": true,
 		"noImplicitReturns": true,
 		"noImplicitOverride": true,
@@ -22,9 +25,12 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noEmitOnError": true,
 		"exactOptionalPropertyTypes": true,
-		"useDefineForClassFields": true,
 		"forceConsistentCasingInFileNames": true,
+
+		// Resolution and imports
 		"skipLibCheck": true,
-		"sourceMap": true
+		"allowSyntheticDefaultImports": true, // To provide backwards compatibility, Node.js allows you to import most CommonJS packages with a default import. This flag tells TypeScript that it's okay to use import on CommonJS modules.
+		"resolveJsonModule": false, // ESM doesn't yet support JSON modules.
+		"verbatimModuleSyntax": true
 	}
 }
