@@ -8,11 +8,9 @@
 		// Output
 		"outDir": "${configDir}/dist",
 		"declaration": true,
-		"pretty": true,
 		"newLine": "lf",
 		"stripInternal": true,
 		"sourceMap": true,
-		"useDefineForClassFields": true,
 
 		// Language features, errors, style
 		"strict": true,
@@ -25,7 +23,6 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noEmitOnError": true,
 		"exactOptionalPropertyTypes": true,
-		"forceConsistentCasingInFileNames": true,
 
 		// Resolution and imports
 		"skipLibCheck": true,
