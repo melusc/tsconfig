@@ -1,6 +1,6 @@
 {
 	"name": "@lusc/tsconfig",
-	"version": "6.0.2",
+	"version": "7.0.0",
 	"description": "Shared tsconfig for my projects",
 	"exports": {
 		".": "./tsconfig.json",
