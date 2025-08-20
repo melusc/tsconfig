@@ -1,7 +1,8 @@
 name: Publish package to npmjs
 on:
   push:
-    tags: '*'
+    tags:
+      - '*'
 
 jobs:
   build:
@@ -15,6 +16,5 @@ jobs:
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
-      - run: npm publish --provenance
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      - run: npm install -g npm@latest
+      - run: npm publish --access public
