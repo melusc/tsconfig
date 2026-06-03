@@ -16,5 +16,6 @@ jobs:
         with:
           node-version: 24
           registry-url: 'https://registry.npmjs.org'
-      - run: npm install -g npm@latest
-      - run: npm publish --access public
+      - run: npm i -g corepack@latest
+      - run: corepack enable
+      - run: pnpm stage publish --access public --provenance --no-git-checks
