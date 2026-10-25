@@ -16,7 +16,7 @@
 		"url": "https://github.com/melusc"
 	},
 	"engines": {
-		"node": "^20.19.1 || ^22.15.0 || ^24.6.0 || ^25.0.0"
+		"node": "^24.22.1 || ^26.12.1"
 	},
 	"files": [
 		"*.json"
