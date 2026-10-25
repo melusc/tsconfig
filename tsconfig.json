@@ -23,6 +23,8 @@
 		"noPropertyAccessFromIndexSignature": true,
 		"noEmitOnError": true,
 		"exactOptionalPropertyTypes": true,
+		"allowUnreachableCode": false,
+		"allowUnusedLabels": false,
 
 		// Resolution and imports
 		"skipLibCheck": true,
